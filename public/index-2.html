@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@800&family=Outfit:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="fixed inset-x-0 w-full bg-white shadow-base z-20">
+      <div class="flex items-center justify-between px-5 py-5 lg:px-20">
+        <a class="block w-32 h-9 xl:w-40 xl:h-12" href="#">
+          <img
+            class="w-full h-full"
+            src="./assets/images/shared/logo.svg"
+            alt="Logo"
+          />
+        </a>
+        <!-- Mobile Menu Button -->
+        <button class="lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-7 h-7"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Aside Menu -->
+    <aside
+      class="fixed h-base w-80 xxl:w-90 z-10 hidden lg:block bg-brand-light shadow-base px-8 xxl:px-12 pt-24 lg:pt-28"
+    >
+      <div class="max-h-screen overflow-y-scroll space-y-7 pb-40">
+        <div class="inline-flex items-center space-x-7 ml-12">
+          <h4 class="uppercase font-tabac font-semibold text-2xl">
+            black line
+          </h4>
+          <button>
+            <svg
+              width="15"
+              height="9"
+              viewBox="0 0 15 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 1.35669L7.5 9L-3.341e-07 1.35669L1.33125 -5.81908e-08L7.5 6.28662L13.6688 -5.9748e-07L15 1.35669Z"
+                fill="#3F403D"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="flex items-center justify-between">
+          <button>
+            <svg
+              width="9"
+              height="15"
+              viewBox="0 0 9 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.64331 15L-1.31134e-06 7.5L7.64331 1.3364e-06L9 1.33125L2.71337 7.5L9 13.6688L7.64331 15Z"
+                fill="#3F403D"
+              />
+            </svg>
+          </button>
+          <h4 class="font-tabac font-semibold text-2xl">Empfehlungen</h4>
+          <button>
+            <svg
+              width="9"
+              height="15"
+              viewBox="0 0 9 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.35669 6.682e-07L9 7.5L1.35669 15L-1.16382e-07 13.6688L6.28662 7.5L-1.19496e-06 1.33125L1.35669 6.682e-07Z"
+                fill="#3F403D"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="space-y-7 text-center">
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-1.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-brand-dark shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3
+                class="font-semibold text-white lg:text-lg tracking-wider -mt-1"
+              >
+                Zeile Größe 1
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-2.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-white shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3 class="font-semibold lg:text-lg tracking-wider -mt-1">
+                Stellvariante über Eck
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-3.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-white shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3 class="font-semibold lg:text-lg tracking-wider -mt-1">
+                Zeile Größe 1
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-1.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-brand-dark shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3
+                class="font-semibold text-white lg:text-lg tracking-wider -mt-1"
+              >
+                Zeile Größe 1
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-2.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-white shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3 class="font-semibold lg:text-lg tracking-wider -mt-1">
+                Stellvariante über Eck
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-3.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-white shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3 class="font-semibold lg:text-lg tracking-wider -mt-1">
+                Zeile Größe 1
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-1.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-brand-dark shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3
+                class="font-semibold text-white lg:text-lg tracking-wider -mt-1"
+              >
+                Zeile Größe 1
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-2.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-white shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3 class="font-semibold lg:text-lg tracking-wider -mt-1">
+                Stellvariante über Eck
+              </h3>
+            </div>
+          </div>
+          <div class="cursor-pointer">
+            <div class="w-full h-36 px-4 -mb-20">
+              <img
+                class="w-full h-full object-cover rounded-lg"
+                src="./assets/images/empfehlungen/product-3.png"
+                alt="Product"
+              />
+            </div>
+            <div class="bg-white shadow-card rounded-lg pb-3.5 pt-24">
+              <p class="uppercase text-brand-grey lg:text-lg tracking-wider">
+                black line
+              </p>
+              <h3 class="font-semibold lg:text-lg tracking-wider -mt-1">
+                Zeile Größe 1
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sticky w-full bg-linear h-14 bottom-0"></div>
+    </aside>
+
+    <!-- Main Banner -->
+    <main
+      class="h-base flex justify-center lg:ml-90 pt-24 lg:mr-20 mb-20 lg:mb-0"
+    >
+      <!--  -->
+      <div class="max-w-5xl max-h-[40rem] w-full h-full">
+        <img
+          class="w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW91bnRhaW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+          alt="Product"
+        />
+      </div>
+    </main>
+
+    <!-- Color Options & Image Settings -->
+    <div class="fixed left-0 bottom-0 w-full flex flex-col">
+      <!-- Settings -->
+      <div
+        class="lg:fixed right-0 top-0 lg:bottom-44 xl:bottom-36 flex lg:flex-col items-center justify-between bg-white py-3 px-5 lg:px-7 lg:pt-7"
+      >
+        <div class="flex lg:flex-col space-x-7 lg:space-x-0 lg:space-y-7">
+          <button class="btn shadow-btn">
+            <svg
+              class="w-4 h-4 lg:w-5 lg:h-5"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.0006 12.1C16.8254 12.1 17.5512 11.649 17.9251 10.967L21.862 3.828C21.9547 3.66127 22.0022 3.47322 21.9999 3.28246C21.9976 3.0917 21.9456 2.90485 21.8489 2.74039C21.7523 2.57593 21.6144 2.43956 21.4489 2.34478C21.2834 2.25 21.096 2.20009 20.9052 2.2H4.62973L3.59601 0H0V2.2H2.19939L6.1583 10.549L4.67371 13.233C3.87093 14.707 4.92664 16.5 6.59818 16.5H19.7945V14.3H6.59818L7.80785 12.1H16.0006ZM5.67444 4.4H19.0358L16.0006 9.9H8.28072L5.67444 4.4ZM6.59818 17.6C5.38852 17.6 4.40979 18.59 4.40979 19.8C4.40979 21.01 5.38852 22 6.59818 22C7.80785 22 8.79758 21.01 8.79758 19.8C8.79758 18.59 7.80785 17.6 6.59818 17.6ZM17.5952 17.6C16.3855 17.6 15.4068 18.59 15.4068 19.8C15.4068 21.01 16.3855 22 17.5952 22C18.8048 22 19.7945 21.01 19.7945 19.8C19.7945 18.59 18.8048 17.6 17.5952 17.6Z"
+                fill="#3F403D"
+              />
+            </svg>
+          </button>
+          <button class="btn shadow-btn">
+            <svg
+              class="w-4 h-4 lg:w-5 lg:h-5"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 21V13.5H3V18H7.5V21H0ZM0 7.5V0H7.5V3H3V7.5H0ZM13.5 21V18H18V13.5H21V21H13.5ZM18 7.5V3H13.5V0H21V7.5H18Z"
+                fill="#3F403D"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="flex lg:flex-col space-x-7 lg:space-x-0 lg:space-y-7">
+          <button class="btn shadow-btn bg-brand-dark">
+            <svg
+              class="w-4 h-4 lg:w-5 lg:h-5"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.6802 20.1182L20.1183 21.6801C19.9122 21.885 19.6334 22 19.3428 22C19.0523 22 18.7735 21.885 18.5674 21.6801L5.50044 8.63466C5.14276 8.73828 4.77286 8.79377 4.40052 8.79965C3.70021 8.79915 3.01014 8.63148 2.38767 8.31057C1.76521 7.98966 1.22834 7.5248 0.821695 6.95462C0.415055 6.38444 0.150393 5.72542 0.0497151 5.03235C-0.0509629 4.33929 0.0152514 3.6322 0.242853 2.96988L3.03663 5.76377L3.61958 5.18079L5.18146 3.61886L5.76441 3.03588L2.97064 0.24199C3.63293 0.01438 4.33999 -0.0518369 5.03303 0.0488451C5.72606 0.149527 6.38505 0.414199 6.95521 0.820856C7.52537 1.22751 7.99022 1.7644 8.31111 2.38689C8.63201 3.00938 8.79967 3.69949 8.80017 4.39983C8.79429 4.77218 8.73881 5.14209 8.63519 5.49978L21.6802 18.5673C21.885 18.7734 22 19.0521 22 19.3427C22 19.6333 21.885 19.9121 21.6802 20.1182ZM0.319847 18.5673C0.114987 18.7734 0 19.0521 0 19.3427C0 19.6333 0.114987 19.9121 0.319847 20.1182L1.88172 21.6801C2.08781 21.885 2.36658 22 2.65716 22C2.94774 22 3.22652 21.885 3.4326 21.6801L9.44912 15.6744L6.33637 12.5615M19.7993 0L15.3997 2.19991V4.39983L13.0128 6.78673L15.2127 8.98664L17.5995 6.59974H19.7993L21.9991 2.19991L19.7993 0Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+          <button class="btn shadow-btn">
+            <svg
+              class="w-4 h-4 lg:w-5 lg:h-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 0.825H0.825V1V23V23.175H1H23H23.175V23V1V0.825H23H15.6667H15.4917V1V2.46667V2.64167H15.6667H21.3583V11.0917H18.6H18.425V11.2667V12.7333V12.9083H18.6H21.3583V21.3583H11.4417V12.9083H14.2H14.375V12.7333V11.2667V11.0917H14.2H6.86667H6.69167V11.2667V12.7333V12.9083H6.86667H9.625V21.3583H2.64167V2.64167H7.32555L11.4967 5.42241L11.6424 5.51954L11.7394 5.37379L12.5519 4.15353L12.6489 4.00794L12.5033 3.91092L7.91854 0.854391L7.87445 0.825H7.82147H1Z"
+                fill="#3F403D"
+                stroke="#3F403D"
+                stroke-width="0.35"
+              />
+            </svg>
+          </button>
+        </div>
+        <button class="btn shadow-btn">
+          <svg
+            class="w-4 h-4 lg:w-5 lg:h-5"
+            viewBox="0 0 13 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.354 18.7H7.6195V22H4.354V18.7ZM6.531 0C12.3545 0.242 14.8907 6.182 11.4292 10.637C10.5258 11.737 9.0672 12.463 8.34879 13.387C7.6195 14.3 7.6195 15.4 7.6195 16.5H4.354C4.354 14.663 4.354 13.112 5.08329 12.012C5.8017 10.912 7.26029 10.263 8.16374 9.537C10.7979 7.073 10.1448 3.586 6.531 3.3C5.66493 3.3 4.83434 3.64768 4.22194 4.26655C3.60954 4.88542 3.2655 5.72479 3.2655 6.6H0C0 4.84957 0.688085 3.17084 1.91288 1.9331C3.13768 0.695355 4.79887 0 6.531 0Z"
+              fill="#3F403D"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Color Options -->
+      <div class="bg-brand-light lg:shadow-base py-5 px-5">
+        <div
+          class="lg:ml-80 xxl:ml-90 flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-8 xxl:space-x-16"
+        >
+          <div
+            class="flex flex-col xl:flex-row items-center space-y-5 lg:space-y-5 xl:space-x-12 xl:space-y-0"
+          >
+            <h3 class="font-tabac font-semibold text-xl xxl:text-2xl">
+              Korpus
+            </h3>
+            <div
+              class="flex items-center text-10 xxl:text-xs space-x-5 xxl:space-x-9"
+            >
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/zement.svg"
+                    alt="Zement"
+                  />
+                </div>
+                <p class="font-semibold text-brand-grey mt-2.5">
+                  007 <br />
+                  HPL Zement
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/granit.svg"
+                    alt="Granit"
+                  />
+                </div>
+                <p class="font-semibold text-brand-dark mt-2.5">
+                  006 <br />
+                  HPL Granit
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/beton.svg"
+                    alt="Beton"
+                  />
+                </div>
+                <p class="font-semibold text-brand-grey mt-2.5">
+                  004 <br />
+                  HPL Beton
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/graphit.svg"
+                    alt="Graphit"
+                  />
+                </div>
+                <p class="font-semibold text-brand-grey mt-2.5">
+                  110 <br />
+                  HPL Graphit
+                </p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex flex-col xl:flex-row items-center space-y-5 lg:space-y-5 xl:space-x-12 xl:space-y-0"
+          >
+            <h3 class="font-tabac font-semibold text-xl xxl:text-2xl">Front</h3>
+            <div
+              class="flex items-center text-10 xxl:text-xs space-x-5 xxl:space-x-9"
+            >
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/zement.svg"
+                    alt="Zement"
+                  />
+                </div>
+                <p class="font-semibold text-brand-grey mt-2.5">
+                  007 <br />
+                  HPL Zement
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/granit.svg"
+                    alt="Granit"
+                  />
+                </div>
+                <p class="font-semibold text-brand-dark mt-2.5">
+                  006 <br />
+                  HPL Granit
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/beton.svg"
+                    alt="Beton"
+                  />
+                </div>
+                <p class="font-semibold text-brand-grey mt-2.5">
+                  004 <br />
+                  HPL Beton
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/geburstet.svg"
+                    alt="Geburstet"
+                  />
+                </div>
+                <p class="font-semibold text-brand-dark mt-2.5">
+                  162 <br />
+                  Teak gebürstet
+                </p>
+              </button>
+              <button class="flex flex-col items-center">
+                <div class="w-9 h-9 xxl:w-12 xxl:h-12 rounded-full">
+                  <img
+                    class="w-full h-full"
+                    src="./assets/images/shared/graphit.svg"
+                    alt="Graphit"
+                  />
+                </div>
+                <p class="font-semibold text-brand-grey mt-2.5">
+                  110 <br />
+                  HPL Graphit
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
