@@ -23,51 +23,11 @@
   }
 }
 
-@layer utilities {
-  .btn {
-    @apply w-10 h-10 lg:w-12 lg:h-12 grid place-content-center rounded-full;
-  }
-
-  .btn-sm {
-    @apply w-8 h-8 p-0.5;
-  }
-
-  .btn-bordered {
-    @apply border rounded-full;
-  }
-
-  .btn-sm-dark {
-    @apply bg-brand-dark border-brand-dark bg-radial;
-  }
-
-  .btn-sm-green {
-    @apply bg-brand-green border-brand-green bg-radial;
-  }
-
-  .btn-sm-inner {
-    @apply rounded-full grid place-content-center;
-  }
-
-  .btn-sm-inner-dark {
-    @apply bg-brand-dark;
-  }
-
-  .btn-sm-inner-green {
-    @apply bg-brand-green;
-  }
-}
-
 .h-base {
   min-height: calc(100vh - 4.5rem);
 }
 
-/* .h-banner {
-  min-height: calc(100vh - 13.3125rem);
-} */
-
 /* Scrollbar Styles */
-
-/* width */
 ::-webkit-scrollbar {
   width: 0px;
 }
