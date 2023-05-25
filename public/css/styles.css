@@ -759,6 +759,12 @@ video {
 .pt-16 {
   padding-top: 4rem;
 }
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pt-14 {
+  padding-top: 3.5rem;
+}
 .text-center {
   text-align: center;
 }
@@ -945,6 +951,10 @@ video {
     flex-direction: column;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(0px * var(--tw-space-x-reverse));
@@ -999,6 +1009,10 @@ video {
 
   .lg\:pt-20 {
     padding-top: 5rem;
+  }
+
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
 
   .lg\:text-lg {
