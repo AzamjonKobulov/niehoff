@@ -507,6 +507,15 @@ video {
 .top-0 {
   top: 0px;
 }
+.top-20 {
+  top: 5rem;
+}
+.top-44 {
+  top: 11rem;
+}
+.top-52 {
+  top: 13rem;
+}
 .z-10 {
   z-index: 10;
 }
