@@ -871,6 +871,10 @@ video {
 }
 @media (min-width: 768px) {
 
+  .md\:max-h-\[30rem\] {
+    max-height: 30rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -987,6 +991,14 @@ video {
 
   .lg\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-lg {
