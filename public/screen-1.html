@@ -26,7 +26,7 @@
           />
         </a>
         <!-- Mobile Menu Button -->
-        <button class="lg:hidden">
+        <button id="menuBtn" class="lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -47,6 +47,7 @@
 
     <!-- Aside Menu -->
     <aside
+      id="menu"
       class="fixed h-base w-80 xxl:w-90 z-10 hidden lg:block bg-brand-light shadow-base px-8 xxl:px-12 pt-24 lg:pt-28"
     >
       <div class="max-h-screen overflow-y-scroll space-y-7 pb-40">
@@ -270,9 +271,9 @@
       class="h-base flex justify-center lg:ml-90 pt-16 lg:pt-24 lg:mr-20 mb-20 lg:mb-0"
     >
       <!--  -->
-      <div class="max-w-5xl max-h-[40rem] w-full">
+      <div class="max-w-5xl max-h-[30rem] lg:max-h-[40rem] w-full">
         <img
-          class="w-full h-full object-cover"
+          class="w-full h-full object-contain"
           src="./assets/images/shared/product.png"
           alt="Product"
         />
