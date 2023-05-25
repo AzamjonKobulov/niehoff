@@ -522,6 +522,9 @@ video {
 .z-20 {
   z-index: 20;
 }
+.z-50 {
+  z-index: 50;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -825,6 +828,9 @@ video {
 .pt-28 {
   padding-top: 7rem;
 }
+.pt-7 {
+  padding-top: 1.75rem;
+}
 .text-center {
   text-align: center;
 }
@@ -985,6 +991,10 @@ video {
 
   .lg\:bottom-28 {
     bottom: 7rem;
+  }
+
+  .lg\:z-10 {
+    z-index: 10;
   }
 
   .lg\:mb-0 {
