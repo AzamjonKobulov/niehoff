@@ -748,6 +748,12 @@ video {
 .pt-7 {
   padding-top: 1.75rem;
 }
+.pb-44 {
+  padding-bottom: 11rem;
+}
+.pb-56 {
+  padding-bottom: 14rem;
+}
 .text-center {
   text-align: center;
 }
