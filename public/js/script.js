@@ -2,5 +2,5 @@ const menuBtn = document.getElementById('menuBtn');
 const sidebarMenu = document.getElementById('sidebar');
 
 menuBtn.addEventListener('click', () => {
-  sidebarMenu.classList.toggle('-translate-x-full');
+  sidebarMenu.classList.toggle('hidden');
 });
