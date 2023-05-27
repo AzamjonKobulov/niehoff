@@ -18,7 +18,7 @@ module.exports = {
         90: '21.875rem',
       },
       fontSize: {
-        10: '0.625rem',
+        xxs: '0.625rem',
       },
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
