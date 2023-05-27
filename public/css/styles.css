@@ -601,6 +601,9 @@ video {
 .w-full {
   width: 100%;
 }
+.w-72 {
+  width: 18rem;
+}
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -885,6 +888,12 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3rem * var(--tw-space-x-reverse));
+    margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1131,6 +1140,11 @@ video {
   .xxl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  .xxl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .xxl\:text-2xl {
